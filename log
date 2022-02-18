@@ -1,0 +1,2443 @@
+    519081:	find library=libreadline.so.8 [0]; searching
+    519081:	 search cache=/etc/ld.so.cache
+    519081:	  trying file=/usr/lib/libreadline.so.8
+    519081:	
+    519081:	find library=libdl.so.2 [0]; searching
+    519081:	 search cache=/etc/ld.so.cache
+    519081:	  trying file=/usr/lib/libdl.so.2
+    519081:	
+    519081:	find library=libc.so.6 [0]; searching
+    519081:	 search cache=/etc/ld.so.cache
+    519081:	  trying file=/usr/lib/libc.so.6
+    519081:	
+    519081:	find library=libncursesw.so.6 [0]; searching
+    519081:	 search cache=/etc/ld.so.cache
+    519081:	  trying file=/usr/lib/libncursesw.so.6
+    519081:	
+    519081:	
+    519081:	calling init: /lib64/ld-linux-x86-64.so.2
+    519081:	
+    519081:	
+    519081:	calling init: /usr/lib/libc.so.6
+    519081:	
+    519081:	
+    519081:	calling init: /usr/lib/libncursesw.so.6
+    519081:	
+    519081:	
+    519081:	calling init: /usr/lib/libdl.so.2
+    519081:	
+    519081:	
+    519081:	calling init: /usr/lib/libreadline.so.8
+    519081:	
+    519081:	
+    519081:	initialize program: /bin/sh
+    519081:	
+    519081:	
+    519081:	transferring control: /bin/sh
+    519081:	
+    519082:	find library=libdl.so.2 [0]; searching
+    519082:	 search path=/usr/bin/../lib/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/tls/x86_64/x86_64:/usr/bin/../lib/tls/x86_64:/usr/bin/../lib/tls/x86_64:/usr/bin/../lib/tls:/usr/bin/../lib/x86_64/x86_64:/usr/bin/../lib/x86_64:/usr/bin/../lib/x86_64:/usr/bin/../lib:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/julia/tls/x86_64/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls:/usr/bin/../lib/julia/x86_64/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/glibc-hwcaps/x86-64-v3/libdl.so.2
+    519082:	  trying file=/usr/bin/../lib/glibc-hwcaps/x86-64-v2/libdl.so.2
+    519082:	  trying file=/usr/bin/../lib/tls/x86_64/x86_64/libdl.so.2
+    519082:	  trying file=/usr/bin/../lib/tls/x86_64/libdl.so.2
+    519082:	  trying file=/usr/bin/../lib/tls/x86_64/libdl.so.2
+    519082:	  trying file=/usr/bin/../lib/tls/libdl.so.2
+    519082:	  trying file=/usr/bin/../lib/x86_64/x86_64/libdl.so.2
+    519082:	  trying file=/usr/bin/../lib/x86_64/libdl.so.2
+    519082:	  trying file=/usr/bin/../lib/x86_64/libdl.so.2
+    519082:	  trying file=/usr/bin/../lib/libdl.so.2
+    519082:	
+    519082:	find library=libpthread.so.0 [0]; searching
+    519082:	 search path=/usr/bin/../lib:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/julia/tls/x86_64/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls:/usr/bin/../lib/julia/x86_64/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/libpthread.so.0
+    519082:	
+    519082:	find library=libc.so.6 [0]; searching
+    519082:	 search path=/usr/bin/../lib:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/julia/tls/x86_64/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls:/usr/bin/../lib/julia/x86_64/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/libc.so.6
+    519082:	
+    519082:	find library=libjulia.so.1 [0]; searching
+    519082:	 search path=/usr/bin/../lib:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/julia/tls/x86_64/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls:/usr/bin/../lib/julia/x86_64/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/libjulia.so.1
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/libpthread.so.0
+    519082:	
+    519082:	
+    519082:	calling init: /lib64/ld-linux-x86-64.so.2
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/libc.so.6
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/libdl.so.2
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/libjulia.so.1
+    519082:	
+    519082:	find library=libgcc_s.so.1 [0]; searching
+    519082:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/libgcc_s.so.1
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libgcc_s.so.1
+    519082:	
+    519082:	find library=libopenlibm.so [0]; searching
+    519082:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/libopenlibm.so
+    519082:	 search path=/usr/bin/../lib:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/julia/tls/x86_64/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls:/usr/bin/../lib/julia/x86_64/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/libopenlibm.so
+    519082:	  trying file=/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3/libopenlibm.so
+    519082:	  trying file=/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2/libopenlibm.so
+    519082:	  trying file=/usr/bin/../lib/julia/tls/x86_64/x86_64/libopenlibm.so
+    519082:	  trying file=/usr/bin/../lib/julia/tls/x86_64/libopenlibm.so
+    519082:	  trying file=/usr/bin/../lib/julia/tls/x86_64/libopenlibm.so
+    519082:	  trying file=/usr/bin/../lib/julia/tls/libopenlibm.so
+    519082:	  trying file=/usr/bin/../lib/julia/x86_64/x86_64/libopenlibm.so
+    519082:	  trying file=/usr/bin/../lib/julia/x86_64/libopenlibm.so
+    519082:	  trying file=/usr/bin/../lib/julia/x86_64/libopenlibm.so
+    519082:	  trying file=/usr/bin/../lib/julia/libopenlibm.so
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libopenlibm.so
+    519082:	
+    519082:	find library=libjulia-internal.so.1 [0]; searching
+    519082:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/libjulia-internal.so.1
+    519082:	 search path=/usr/bin/../lib:/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/libjulia-internal.so.1
+    519082:	  trying file=/usr/bin/../lib/julia/libjulia-internal.so.1
+    519082:	
+    519082:	find library=libunwind.so.8 [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libunwind.so.8
+    519082:	
+    519082:	find library=libLLVM-12jl.so [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libLLVM-12jl.so
+    519082:	
+    519082:	find library=librt.so.1 [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/librt.so.1
+    519082:	 search path=/usr/bin/../lib/julia/../glibc-hwcaps/x86-64-v3:/usr/bin/../lib/julia/../glibc-hwcaps/x86-64-v2:/usr/bin/../lib/julia/../tls/x86_64/x86_64:/usr/bin/../lib/julia/../tls/x86_64:/usr/bin/../lib/julia/../tls/x86_64:/usr/bin/../lib/julia/../tls:/usr/bin/../lib/julia/../x86_64/x86_64:/usr/bin/../lib/julia/../x86_64:/usr/bin/../lib/julia/../x86_64:/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519082:	  trying file=/usr/bin/../lib/julia/../glibc-hwcaps/x86-64-v3/librt.so.1
+    519082:	  trying file=/usr/bin/../lib/julia/../glibc-hwcaps/x86-64-v2/librt.so.1
+    519082:	  trying file=/usr/bin/../lib/julia/../tls/x86_64/x86_64/librt.so.1
+    519082:	  trying file=/usr/bin/../lib/julia/../tls/x86_64/librt.so.1
+    519082:	  trying file=/usr/bin/../lib/julia/../tls/x86_64/librt.so.1
+    519082:	  trying file=/usr/bin/../lib/julia/../tls/librt.so.1
+    519082:	  trying file=/usr/bin/../lib/julia/../x86_64/x86_64/librt.so.1
+    519082:	  trying file=/usr/bin/../lib/julia/../x86_64/librt.so.1
+    519082:	  trying file=/usr/bin/../lib/julia/../x86_64/librt.so.1
+    519082:	  trying file=/usr/bin/../lib/julia/../librt.so.1
+    519082:	
+    519082:	find library=libatomic.so.1 [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libatomic.so.1
+    519082:	
+    519082:	find library=libstdc++.so.6 [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libstdc++.so.6
+    519082:	
+    519082:	find library=libm.so.6 [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libm.so.6
+    519082:	 search path=/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519082:	  trying file=/usr/bin/../lib/julia/../libm.so.6
+    519082:	
+    519082:	find library=libz.so.1 [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libz.so.1
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libz.so.1
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/../libm.so.6
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libstdc++.so.6
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libatomic.so.1
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/../librt.so.1
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libLLVM-12jl.so
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libunwind.so.8
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libjulia-internal.so.1
+    519082:	
+    519082:	
+    519082:	initialize program: julia
+    519082:	
+    519082:	
+    519082:	transferring control: julia
+    519082:	
+    519082:	
+    519082:	calling init: /usr/lib/julia/sys.so
+    519082:	
+    519082:	find library=libpcre2-8 [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libpcre2-8
+    519082:	 search path=/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519082:	  trying file=/usr/bin/../lib/julia/../libpcre2-8
+    519082:	 search cache=/etc/ld.so.cache
+    519082:	 search path=/usr/lib/glibc-hwcaps/x86-64-v3:/usr/lib/glibc-hwcaps/x86-64-v2:/usr/lib/tls/x86_64/x86_64:/usr/lib/tls/x86_64:/usr/lib/tls/x86_64:/usr/lib/tls:/usr/lib/x86_64/x86_64:/usr/lib/x86_64:/usr/lib/x86_64:/usr/lib		(system search path)
+    519082:	  trying file=/usr/lib/glibc-hwcaps/x86-64-v3/libpcre2-8
+    519082:	  trying file=/usr/lib/glibc-hwcaps/x86-64-v2/libpcre2-8
+    519082:	  trying file=/usr/lib/tls/x86_64/x86_64/libpcre2-8
+    519082:	  trying file=/usr/lib/tls/x86_64/libpcre2-8
+    519082:	  trying file=/usr/lib/tls/x86_64/libpcre2-8
+    519082:	  trying file=/usr/lib/tls/libpcre2-8
+    519082:	  trying file=/usr/lib/x86_64/x86_64/libpcre2-8
+    519082:	  trying file=/usr/lib/x86_64/libpcre2-8
+    519082:	  trying file=/usr/lib/x86_64/libpcre2-8
+    519082:	  trying file=/usr/lib/libpcre2-8
+    519082:	
+    519082:	find library=libpcre2-8.so [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libpcre2-8.so
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libpcre2-8.so
+    519082:	
+    519082:	find library=libgmp [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libgmp
+    519082:	 search path=/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519082:	  trying file=/usr/bin/../lib/julia/../libgmp
+    519082:	 search cache=/etc/ld.so.cache
+    519082:	 search path=/usr/lib		(system search path)
+    519082:	  trying file=/usr/lib/libgmp
+    519082:	
+    519082:	find library=libgmp.so [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libgmp.so
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libgmp.so
+    519082:	
+    519082:	find library=libmpfr [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libmpfr
+    519082:	 search path=/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519082:	  trying file=/usr/bin/../lib/julia/../libmpfr
+    519082:	 search cache=/etc/ld.so.cache
+    519082:	 search path=/usr/lib		(system search path)
+    519082:	  trying file=/usr/lib/libmpfr
+    519082:	
+    519082:	find library=libmpfr.so [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libmpfr.so
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libmpfr.so
+    519082:	
+    519082:	find library=libgfortran.so.5 [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libgfortran.so.5
+    519082:	
+    519082:	find library=libquadmath.so.0 [0]; searching
+    519082:	 search path=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/glibc-hwcaps/x86-64-v3:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/glibc-hwcaps/x86-64-v2:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls/x86_64/x86_64:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls/x86_64:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls/x86_64:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/x86_64/x86_64:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/x86_64:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/x86_64:/workspace/destdir/x86_64-linux-gnu/lib/../lib64		(RPATH from file /usr/bin/../lib/julia/libgfortran.so.5)
+    519082:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/glibc-hwcaps/x86-64-v3/libquadmath.so.0
+    519082:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/glibc-hwcaps/x86-64-v2/libquadmath.so.0
+    519082:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls/x86_64/x86_64/libquadmath.so.0
+    519082:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls/x86_64/libquadmath.so.0
+    519082:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls/x86_64/libquadmath.so.0
+    519082:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls/libquadmath.so.0
+    519082:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/x86_64/x86_64/libquadmath.so.0
+    519082:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/x86_64/libquadmath.so.0
+    519082:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/x86_64/libquadmath.so.0
+    519082:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/libquadmath.so.0
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libquadmath.so.0
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libquadmath.so.0
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libgfortran.so.5
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libopenblas64_.so
+    519082:	
+    519082:	find library=libblastrampoline [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libblastrampoline
+    519082:	 search path=/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519082:	  trying file=/usr/bin/../lib/julia/../libblastrampoline
+    519082:	 search cache=/etc/ld.so.cache
+    519082:	 search path=/usr/lib		(system search path)
+    519082:	  trying file=/usr/lib/libblastrampoline
+    519082:	
+    519082:	find library=libblastrampoline.so [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libblastrampoline.so
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libblastrampoline.so
+    519082:	
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: isamax_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: isamax__ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: isamax___ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: cblas_dbf16tod64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: cblas_sbdot64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: cblas_sbdtobf1664_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: cblas_sbf16tos64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: cblas_sbgemm64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: cblas_sbgemv64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: cblas_sbstobf1664_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: dbf16tod_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qamax_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qamin_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qasum_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qaxpy_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qcabs1_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qcopy_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qdot_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qgbmv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qgemm_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qgemv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qger_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qmax_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qmin_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qnrm2_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qsbmv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qscal_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qspmv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qspr2_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qspr_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qswap_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qsymm_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qsymv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qsyr2_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qsyr2k_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qsyr_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qsyrk_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtbmv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtbsv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtpmv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtpsv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtrmm_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtrmv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtrsm_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtrsv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qxamax_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qxamin_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qxasum_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qxnrm2_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: sbdot_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: sbdtobf16_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: sbf16tos_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: sbgemm_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: sbgemv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: sbstobf16_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xaxpy_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xcopy_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xdotc_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xdotu_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xgbmv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xgemm_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xgemv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xgerc_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xgeru_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xhbmv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xhemm_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xhemv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xher2_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xher2k_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xher_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xherk_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xhpmv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xhpr2_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xhpr_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xqscal_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xscal_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xswap_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xsymm_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xsyr2k_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xsyrk_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtbmv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtbsv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtpmv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtpsv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtrmm_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtrmv_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtrsm_64_ (fatal)
+    519082:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtrsv_64_ (fatal)
+    519082:	find library=libcholmod [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libcholmod
+    519082:	 search path=/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519082:	  trying file=/usr/bin/../lib/julia/../libcholmod
+    519082:	 search cache=/etc/ld.so.cache
+    519082:	 search path=/usr/lib		(system search path)
+    519082:	  trying file=/usr/lib/libcholmod
+    519082:	
+    519082:	find library=libcholmod.so [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libcholmod.so
+    519082:	
+    519082:	find library=libamd.so.2 [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libamd.so.2
+    519082:	
+    519082:	find library=libcolamd.so.2 [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libcolamd.so.2
+    519082:	
+    519082:	find library=libsuitesparseconfig.so.5 [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libsuitesparseconfig.so.5
+    519082:	
+    519082:	find library=libccolamd.so.2 [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libccolamd.so.2
+    519082:	
+    519082:	find library=libcamd.so.2 [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libcamd.so.2
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libsuitesparseconfig.so.5
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libcamd.so.2
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libccolamd.so.2
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libcolamd.so.2
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libamd.so.2
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libcholmod.so
+    519082:	
+    519082:	find library=libcholmod [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libcholmod
+    519082:	 search path=/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519082:	  trying file=/usr/bin/../lib/julia/../libcholmod
+    519082:	 search cache=/etc/ld.so.cache
+    519082:	 search path=/usr/lib		(system search path)
+    519082:	  trying file=/usr/lib/libcholmod
+    519082:	
+    519082:	find library=libsuitesparseconfig [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libsuitesparseconfig
+    519082:	 search path=/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519082:	  trying file=/usr/bin/../lib/julia/../libsuitesparseconfig
+    519082:	 search cache=/etc/ld.so.cache
+    519082:	 search path=/usr/lib		(system search path)
+    519082:	  trying file=/usr/lib/libsuitesparseconfig
+    519082:	
+    519082:	find library=libsuitesparseconfig.so [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libsuitesparseconfig.so
+    519082:	
+    519082:	find library=libnghttp2.so.14 [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libnghttp2.so.14
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libnghttp2.so.14
+    519082:	
+    519082:	find library=libcurl.so [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libcurl.so
+    519082:	
+    519082:	find library=libssh2.so.1 [0]; searching
+    519082:	 search path=/workspace/destdir/lib/glibc-hwcaps/x86-64-v3:/workspace/destdir/lib/glibc-hwcaps/x86-64-v2:/workspace/destdir/lib/tls/x86_64/x86_64:/workspace/destdir/lib/tls/x86_64:/workspace/destdir/lib/tls/x86_64:/workspace/destdir/lib/tls:/workspace/destdir/lib/x86_64/x86_64:/workspace/destdir/lib/x86_64:/workspace/destdir/lib/x86_64:/workspace/destdir/lib		(RUNPATH from file /usr/bin/../lib/julia/libcurl.so)
+    519082:	  trying file=/workspace/destdir/lib/glibc-hwcaps/x86-64-v3/libssh2.so.1
+    519082:	  trying file=/workspace/destdir/lib/glibc-hwcaps/x86-64-v2/libssh2.so.1
+    519082:	  trying file=/workspace/destdir/lib/tls/x86_64/x86_64/libssh2.so.1
+    519082:	  trying file=/workspace/destdir/lib/tls/x86_64/libssh2.so.1
+    519082:	  trying file=/workspace/destdir/lib/tls/x86_64/libssh2.so.1
+    519082:	  trying file=/workspace/destdir/lib/tls/libssh2.so.1
+    519082:	  trying file=/workspace/destdir/lib/x86_64/x86_64/libssh2.so.1
+    519082:	  trying file=/workspace/destdir/lib/x86_64/libssh2.so.1
+    519082:	  trying file=/workspace/destdir/lib/x86_64/libssh2.so.1
+    519082:	  trying file=/workspace/destdir/lib/libssh2.so.1
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libssh2.so.1
+    519082:	
+    519082:	find library=libmbedtls.so.13 [0]; searching
+    519082:	 search path=		(RUNPATH from file /usr/bin/../lib/julia/libcurl.so)
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libmbedtls.so.13
+    519082:	
+    519082:	find library=libmbedx509.so.1 [0]; searching
+    519082:	 search path=		(RUNPATH from file /usr/bin/../lib/julia/libcurl.so)
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libmbedx509.so.1
+    519082:	
+    519082:	find library=libmbedcrypto.so.5 [0]; searching
+    519082:	 search path=		(RUNPATH from file /usr/bin/../lib/julia/libcurl.so)
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libmbedcrypto.so.5
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libmbedcrypto.so.5
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libmbedx509.so.1
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libmbedtls.so.13
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libssh2.so.1
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libcurl.so
+    519082:	
+    519082:	find library=libgomp.so.1 [0]; searching
+    519082:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519082:	  trying file=/usr/bin/../lib/julia/libgomp.so.1
+    519082:	
+    519082:	
+    519082:	calling init: /usr/bin/../lib/julia/libgomp.so.1
+    519082:	
+    519082:	find library=libmpi.so.12 [0]; searching
+    519082:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v3:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v2:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(RUNPATH from file /home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libload_time_mpi_constants.so)
+    519082:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v3/libmpi.so.12
+    519082:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v2/libmpi.so.12
+    519082:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/x86_64/libmpi.so.12
+    519082:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/libmpi.so.12
+    519082:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/libmpi.so.12
+    519082:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/libmpi.so.12
+    519082:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/x86_64/libmpi.so.12
+    519082:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/libmpi.so.12
+    519082:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/libmpi.so.12
+    519082:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libmpi.so.12
+    519082:	
+    519082:	
+    519082:	calling init: /home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libmpi.so.12
+    519082:	
+    519082:	
+    519082:	calling init: /home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libload_time_mpi_constants.so
+    519082:	
+    519082:	
+    519082:	calling init: /home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libmpicxx.so
+    519082:	
+    519082:	
+    519082:	calling init: /home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libmpifort.so
+    519082:	
+    519091:	find library=libm.so.6 [0]; searching
+    519091:	 search path=/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/julia/tls/x86_64/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls:/usr/bin/../lib/julia/x86_64/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v3:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v2:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib:/usr/bin/../lib/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/tls/x86_64/x86_64:/usr/bin/../lib/tls/x86_64:/usr/bin/../lib/tls/x86_64:/usr/bin/../lib/tls:/usr/bin/../lib/x86_64/x86_64:/usr/bin/../lib/x86_64:/usr/bin/../lib/x86_64:/usr/bin/../lib		(LD_LIBRARY_PATH)
+    519091:	  trying file=/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/julia/tls/x86_64/x86_64/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/julia/tls/x86_64/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/julia/tls/x86_64/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/julia/tls/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/julia/x86_64/x86_64/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/julia/x86_64/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/julia/x86_64/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/julia/libm.so.6
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v3/libm.so.6
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v2/libm.so.6
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/x86_64/libm.so.6
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/libm.so.6
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/libm.so.6
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/libm.so.6
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/x86_64/libm.so.6
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/libm.so.6
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/libm.so.6
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/glibc-hwcaps/x86-64-v3/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/glibc-hwcaps/x86-64-v2/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/tls/x86_64/x86_64/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/tls/x86_64/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/tls/x86_64/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/tls/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/x86_64/x86_64/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/x86_64/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/x86_64/libm.so.6
+    519091:	  trying file=/usr/bin/../lib/libm.so.6
+    519091:	
+    519091:	find library=libpthread.so.0 [0]; searching
+    519091:	 search path=/usr/bin/../lib/julia:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib:/usr/bin/../lib		(LD_LIBRARY_PATH)
+    519091:	  trying file=/usr/bin/../lib/julia/libpthread.so.0
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libpthread.so.0
+    519091:	  trying file=/usr/bin/../lib/libpthread.so.0
+    519091:	
+    519091:	find library=libc.so.6 [0]; searching
+    519091:	 search path=/usr/bin/../lib/julia:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib:/usr/bin/../lib		(LD_LIBRARY_PATH)
+    519091:	  trying file=/usr/bin/../lib/julia/libc.so.6
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libc.so.6
+    519091:	  trying file=/usr/bin/../lib/libc.so.6
+    519091:	
+    519091:	
+    519091:	calling init: /usr/bin/../lib/libpthread.so.0
+    519091:	
+    519091:	
+    519091:	calling init: /lib64/ld-linux-x86-64.so.2
+    519091:	
+    519091:	
+    519091:	calling init: /usr/bin/../lib/libc.so.6
+    519091:	
+    519091:	
+    519091:	calling init: /usr/bin/../lib/libm.so.6
+    519091:	
+    519091:	
+    519091:	initialize program: /home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/bin/mpiexec
+    519091:	
+    519091:	
+    519091:	transferring control: /home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/bin/mpiexec
+    519091:	
+    519091:	find library=libnss_mymachines.so.2 [0]; searching
+    519091:	 search path=/usr/bin/../lib/julia:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib:/usr/bin/../lib		(LD_LIBRARY_PATH)
+    519091:	  trying file=/usr/bin/../lib/julia/libnss_mymachines.so.2
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libnss_mymachines.so.2
+    519091:	  trying file=/usr/bin/../lib/libnss_mymachines.so.2
+    519091:	
+    519091:	find library=librt.so.1 [0]; searching
+    519091:	 search path=/usr/bin/../lib/julia:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib:/usr/bin/../lib		(LD_LIBRARY_PATH)
+    519091:	  trying file=/usr/bin/../lib/julia/librt.so.1
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/librt.so.1
+    519091:	  trying file=/usr/bin/../lib/librt.so.1
+    519091:	
+    519091:	find library=libcap.so.2 [0]; searching
+    519091:	 search path=/usr/bin/../lib/julia:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib:/usr/bin/../lib		(LD_LIBRARY_PATH)
+    519091:	  trying file=/usr/bin/../lib/julia/libcap.so.2
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libcap.so.2
+    519091:	  trying file=/usr/bin/../lib/libcap.so.2
+    519091:	
+    519091:	find library=libgcc_s.so.1 [0]; searching
+    519091:	 search path=/usr/bin/../lib/julia:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib:/usr/bin/../lib		(LD_LIBRARY_PATH)
+    519091:	  trying file=/usr/bin/../lib/julia/libgcc_s.so.1
+    519091:	
+    519091:	
+    519091:	calling init: /usr/bin/../lib/julia/libgcc_s.so.1
+    519091:	
+    519091:	
+    519091:	calling init: /usr/bin/../lib/libcap.so.2
+    519091:	
+    519091:	
+    519091:	calling init: /usr/bin/../lib/librt.so.1
+    519091:	
+    519091:	
+    519091:	calling init: /usr/bin/../lib/libnss_mymachines.so.2
+    519091:	
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_endaliasent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_endetherent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_endgrent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_endhostent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_endnetent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_endnetgrent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_endprotoent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_endpwent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_endrpcent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_endservent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_endsgent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_endspent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getaliasbyname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getaliasent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getcanonname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getetherent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getgrent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_gethostbyaddr2_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_gethostbyaddr_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_gethostent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_gethostton_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getnetbyaddr_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getnetbyname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getnetent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getnetgrent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getntohost_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getprotobyname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getprotobynumber_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getprotoent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getpublickey (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getpwent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getrpcbyname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getrpcbynumber_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getrpcent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getsecretkey (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getservbyname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getservbyport_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getservent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getsgent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getsgnam_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getspent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_getspnam_r (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_initgroups_dyn (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_netname2user (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_setaliasent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_setetherent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_setgrent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_sethostent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_setnetent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_setnetgrent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_setprotoent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_setpwent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_setrpcent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_setservent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_setsgent (fatal)
+    519091:	/usr/bin/../lib/libnss_mymachines.so.2: error: symbol lookup error: undefined symbol: _nss_mymachines_setspent (fatal)
+    519091:	find library=libnss_resolve.so.2 [0]; searching
+    519091:	 search path=/usr/bin/../lib/julia:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib:/usr/bin/../lib		(LD_LIBRARY_PATH)
+    519091:	  trying file=/usr/bin/../lib/julia/libnss_resolve.so.2
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libnss_resolve.so.2
+    519091:	  trying file=/usr/bin/../lib/libnss_resolve.so.2
+    519091:	
+    519091:	
+    519091:	calling init: /usr/bin/../lib/libnss_resolve.so.2
+    519091:	
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_endaliasent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_endetherent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_endgrent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_endhostent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_endnetent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_endnetgrent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_endprotoent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_endpwent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_endrpcent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_endservent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_endsgent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_endspent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getaliasbyname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getaliasent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getcanonname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getetherent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getgrent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getgrgid_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getgrnam_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_gethostent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_gethostton_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getnetbyaddr_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getnetbyname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getnetent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getnetgrent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getntohost_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getprotobyname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getprotobynumber_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getprotoent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getpublickey (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getpwent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getpwnam_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getpwuid_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getrpcbyname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getrpcbynumber_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getrpcent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getsecretkey (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getservbyname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getservbyport_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getservent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getsgent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getsgnam_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getspent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_getspnam_r (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_initgroups_dyn (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_netname2user (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_setaliasent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_setetherent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_setgrent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_sethostent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_setnetent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_setnetgrent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_setprotoent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_setpwent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_setrpcent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_setservent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_setsgent (fatal)
+    519091:	/usr/bin/../lib/libnss_resolve.so.2: error: symbol lookup error: undefined symbol: _nss_resolve_setspent (fatal)
+    519091:	find library=libnss_files.so.2 [0]; searching
+    519091:	 search path=/usr/bin/../lib/julia:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib:/usr/bin/../lib		(LD_LIBRARY_PATH)
+    519091:	  trying file=/usr/bin/../lib/julia/libnss_files.so.2
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libnss_files.so.2
+    519091:	  trying file=/usr/bin/../lib/libnss_files.so.2
+    519091:	
+    519091:	
+    519091:	calling init: /usr/bin/../lib/libnss_files.so.2
+    519091:	
+    519091:	/usr/bin/../lib/libnss_files.so.2: error: symbol lookup error: undefined symbol: _nss_files_getcanonname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_files.so.2: error: symbol lookup error: undefined symbol: _nss_files_gethostbyaddr2_r (fatal)
+    519091:	/usr/bin/../lib/libnss_files.so.2: error: symbol lookup error: undefined symbol: _nss_files_getpublickey (fatal)
+    519091:	/usr/bin/../lib/libnss_files.so.2: error: symbol lookup error: undefined symbol: _nss_files_getsecretkey (fatal)
+    519091:	/usr/bin/../lib/libnss_files.so.2: error: symbol lookup error: undefined symbol: _nss_files_netname2user (fatal)
+    519091:	find library=libnss_myhostname.so.2 [0]; searching
+    519091:	 search path=/usr/bin/../lib/julia:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib:/usr/bin/../lib		(LD_LIBRARY_PATH)
+    519091:	  trying file=/usr/bin/../lib/julia/libnss_myhostname.so.2
+    519091:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libnss_myhostname.so.2
+    519091:	  trying file=/usr/bin/../lib/libnss_myhostname.so.2
+    519091:	
+    519091:	
+    519091:	calling init: /usr/bin/../lib/libnss_myhostname.so.2
+    519091:	
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_endaliasent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_endetherent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_endgrent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_endhostent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_endnetent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_endnetgrent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_endprotoent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_endpwent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_endrpcent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_endservent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_endsgent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_endspent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getaliasbyname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getaliasent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getcanonname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getetherent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getgrent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getgrgid_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getgrnam_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_gethostent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_gethostton_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getnetbyaddr_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getnetbyname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getnetent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getnetgrent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getntohost_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getprotobyname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getprotobynumber_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getprotoent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getpublickey (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getpwent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getpwnam_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getpwuid_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getrpcbyname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getrpcbynumber_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getrpcent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getsecretkey (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getservbyname_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getservbyport_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getservent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getsgent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getsgnam_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getspent_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_getspnam_r (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_initgroups_dyn (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_netname2user (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_setaliasent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_setetherent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_setgrent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_sethostent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_setnetent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_setnetgrent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_setprotoent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_setpwent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_setrpcent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_setservent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_setsgent (fatal)
+    519091:	/usr/bin/../lib/libnss_myhostname.so.2: error: symbol lookup error: undefined symbol: _nss_myhostname_setspent (fatal)
+    519092:	find library=libm.so.6 [0]; searching
+    519092:	 search path=/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/julia/tls/x86_64/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls:/usr/bin/../lib/julia/x86_64/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v3:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v2:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib:/usr/bin/../lib/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/tls/x86_64/x86_64:/usr/bin/../lib/tls/x86_64:/usr/bin/../lib/tls/x86_64:/usr/bin/../lib/tls:/usr/bin/../lib/x86_64/x86_64:/usr/bin/../lib/x86_64:/usr/bin/../lib/x86_64:/usr/bin/../lib		(LD_LIBRARY_PATH)
+    519092:	  trying file=/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/julia/tls/x86_64/x86_64/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/julia/tls/x86_64/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/julia/tls/x86_64/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/julia/tls/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/julia/x86_64/x86_64/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/julia/x86_64/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/julia/x86_64/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/julia/libm.so.6
+    519092:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v3/libm.so.6
+    519092:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v2/libm.so.6
+    519092:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/x86_64/libm.so.6
+    519092:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/libm.so.6
+    519092:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/libm.so.6
+    519092:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/libm.so.6
+    519092:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/x86_64/libm.so.6
+    519092:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/libm.so.6
+    519092:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/libm.so.6
+    519092:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/glibc-hwcaps/x86-64-v3/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/glibc-hwcaps/x86-64-v2/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/tls/x86_64/x86_64/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/tls/x86_64/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/tls/x86_64/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/tls/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/x86_64/x86_64/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/x86_64/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/x86_64/libm.so.6
+    519092:	  trying file=/usr/bin/../lib/libm.so.6
+    519092:	
+    519092:	find library=libpthread.so.0 [0]; searching
+    519092:	 search path=/usr/bin/../lib/julia:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib:/usr/bin/../lib		(LD_LIBRARY_PATH)
+    519092:	  trying file=/usr/bin/../lib/julia/libpthread.so.0
+    519092:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libpthread.so.0
+    519092:	  trying file=/usr/bin/../lib/libpthread.so.0
+    519092:	
+    519092:	find library=libc.so.6 [0]; searching
+    519092:	 search path=/usr/bin/../lib/julia:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib:/usr/bin/../lib		(LD_LIBRARY_PATH)
+    519092:	  trying file=/usr/bin/../lib/julia/libc.so.6
+    519092:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libc.so.6
+    519092:	  trying file=/usr/bin/../lib/libc.so.6
+    519092:	
+    519092:	
+    519092:	calling init: /usr/bin/../lib/libpthread.so.0
+    519092:	
+    519092:	
+    519092:	calling init: /lib64/ld-linux-x86-64.so.2
+    519092:	
+    519092:	
+    519092:	calling init: /usr/bin/../lib/libc.so.6
+    519092:	
+    519092:	
+    519092:	calling init: /usr/bin/../lib/libm.so.6
+    519092:	
+    519092:	
+    519092:	initialize program: /home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/bin/hydra_pmi_proxy
+    519092:	
+    519092:	
+    519092:	transferring control: /home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/bin/hydra_pmi_proxy
+    519092:	
+    519093:	find library=libdl.so.2 [0]; searching
+    519093:	 search path=/usr/bin/../lib/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/tls/x86_64/x86_64:/usr/bin/../lib/tls/x86_64:/usr/bin/../lib/tls/x86_64:/usr/bin/../lib/tls:/usr/bin/../lib/x86_64/x86_64:/usr/bin/../lib/x86_64:/usr/bin/../lib/x86_64:/usr/bin/../lib:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/julia/tls/x86_64/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls:/usr/bin/../lib/julia/x86_64/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/glibc-hwcaps/x86-64-v3/libdl.so.2
+    519093:	  trying file=/usr/bin/../lib/glibc-hwcaps/x86-64-v2/libdl.so.2
+    519093:	  trying file=/usr/bin/../lib/tls/x86_64/x86_64/libdl.so.2
+    519093:	  trying file=/usr/bin/../lib/tls/x86_64/libdl.so.2
+    519093:	  trying file=/usr/bin/../lib/tls/x86_64/libdl.so.2
+    519093:	  trying file=/usr/bin/../lib/tls/libdl.so.2
+    519093:	  trying file=/usr/bin/../lib/x86_64/x86_64/libdl.so.2
+    519093:	  trying file=/usr/bin/../lib/x86_64/libdl.so.2
+    519093:	  trying file=/usr/bin/../lib/x86_64/libdl.so.2
+    519093:	  trying file=/usr/bin/../lib/libdl.so.2
+    519093:	
+    519093:	find library=libpthread.so.0 [0]; searching
+    519093:	 search path=/usr/bin/../lib:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/julia/tls/x86_64/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls:/usr/bin/../lib/julia/x86_64/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libpthread.so.0
+    519093:	
+    519093:	find library=libc.so.6 [0]; searching
+    519093:	 search path=/usr/bin/../lib:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/julia/tls/x86_64/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls:/usr/bin/../lib/julia/x86_64/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libc.so.6
+    519093:	
+    519093:	find library=libjulia.so.1 [0]; searching
+    519093:	 search path=/usr/bin/../lib:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/julia/tls/x86_64/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls:/usr/bin/../lib/julia/x86_64/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libjulia.so.1
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/libpthread.so.0
+    519093:	
+    519093:	
+    519093:	calling init: /lib64/ld-linux-x86-64.so.2
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/libc.so.6
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/libdl.so.2
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/libjulia.so.1
+    519093:	
+    519093:	find library=libgcc_s.so.1 [0]; searching
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libgcc_s.so.1
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libgcc_s.so.1
+    519093:	
+    519093:	find library=libopenlibm.so [0]; searching
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libopenlibm.so
+    519093:	 search path=/usr/bin/../lib:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3:/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2:/usr/bin/../lib/julia/tls/x86_64/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls/x86_64:/usr/bin/../lib/julia/tls:/usr/bin/../lib/julia/x86_64/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia/x86_64:/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libopenlibm.so
+    519093:	  trying file=/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v3/libopenlibm.so
+    519093:	  trying file=/usr/bin/../lib/julia/glibc-hwcaps/x86-64-v2/libopenlibm.so
+    519093:	  trying file=/usr/bin/../lib/julia/tls/x86_64/x86_64/libopenlibm.so
+    519093:	  trying file=/usr/bin/../lib/julia/tls/x86_64/libopenlibm.so
+    519093:	  trying file=/usr/bin/../lib/julia/tls/x86_64/libopenlibm.so
+    519093:	  trying file=/usr/bin/../lib/julia/tls/libopenlibm.so
+    519093:	  trying file=/usr/bin/../lib/julia/x86_64/x86_64/libopenlibm.so
+    519093:	  trying file=/usr/bin/../lib/julia/x86_64/libopenlibm.so
+    519093:	  trying file=/usr/bin/../lib/julia/x86_64/libopenlibm.so
+    519093:	  trying file=/usr/bin/../lib/julia/libopenlibm.so
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libopenlibm.so
+    519093:	
+    519093:	find library=libjulia-internal.so.1 [0]; searching
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libjulia-internal.so.1
+    519093:	 search path=/usr/bin/../lib:/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libjulia-internal.so.1
+    519093:	  trying file=/usr/bin/../lib/julia/libjulia-internal.so.1
+    519093:	
+    519093:	find library=libunwind.so.8 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libunwind.so.8
+    519093:	
+    519093:	find library=libLLVM-12jl.so [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libLLVM-12jl.so
+    519093:	
+    519093:	find library=librt.so.1 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/librt.so.1
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v3:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v2:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64:/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v3/librt.so.1
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/glibc-hwcaps/x86-64-v2/librt.so.1
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/x86_64/librt.so.1
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/librt.so.1
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/x86_64/librt.so.1
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/tls/librt.so.1
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/x86_64/librt.so.1
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/librt.so.1
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/x86_64/librt.so.1
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/librt.so.1
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/librt.so.1
+    519093:	
+    519093:	find library=libatomic.so.1 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libatomic.so.1
+    519093:	
+    519093:	find library=libstdc++.so.6 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libstdc++.so.6
+    519093:	
+    519093:	find library=libm.so.6 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libm.so.6
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libm.so.6
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libm.so.6
+    519093:	
+    519093:	find library=libz.so.1 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libz.so.1
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libz.so.1
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/libm.so.6
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libstdc++.so.6
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libatomic.so.1
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/librt.so.1
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libLLVM-12jl.so
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libunwind.so.8
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libjulia-internal.so.1
+    519093:	
+    519093:	
+    519093:	initialize program: julia
+    519093:	
+    519093:	
+    519093:	transferring control: julia
+    519093:	
+    519093:	
+    519093:	calling init: /usr/lib/julia/sys.so
+    519093:	
+    519093:	find library=libpcre2-8 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libpcre2-8
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libpcre2-8
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libpcre2-8
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libpcre2-8
+    519093:	 search path=/usr/bin/../lib/julia/../glibc-hwcaps/x86-64-v3:/usr/bin/../lib/julia/../glibc-hwcaps/x86-64-v2:/usr/bin/../lib/julia/../tls/x86_64/x86_64:/usr/bin/../lib/julia/../tls/x86_64:/usr/bin/../lib/julia/../tls/x86_64:/usr/bin/../lib/julia/../tls:/usr/bin/../lib/julia/../x86_64/x86_64:/usr/bin/../lib/julia/../x86_64:/usr/bin/../lib/julia/../x86_64:/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519093:	  trying file=/usr/bin/../lib/julia/../glibc-hwcaps/x86-64-v3/libpcre2-8
+    519093:	  trying file=/usr/bin/../lib/julia/../glibc-hwcaps/x86-64-v2/libpcre2-8
+    519093:	  trying file=/usr/bin/../lib/julia/../tls/x86_64/x86_64/libpcre2-8
+    519093:	  trying file=/usr/bin/../lib/julia/../tls/x86_64/libpcre2-8
+    519093:	  trying file=/usr/bin/../lib/julia/../tls/x86_64/libpcre2-8
+    519093:	  trying file=/usr/bin/../lib/julia/../tls/libpcre2-8
+    519093:	  trying file=/usr/bin/../lib/julia/../x86_64/x86_64/libpcre2-8
+    519093:	  trying file=/usr/bin/../lib/julia/../x86_64/libpcre2-8
+    519093:	  trying file=/usr/bin/../lib/julia/../x86_64/libpcre2-8
+    519093:	  trying file=/usr/bin/../lib/julia/../libpcre2-8
+    519093:	 search cache=/etc/ld.so.cache
+    519093:	 search path=/usr/lib/glibc-hwcaps/x86-64-v3:/usr/lib/glibc-hwcaps/x86-64-v2:/usr/lib/tls/x86_64/x86_64:/usr/lib/tls/x86_64:/usr/lib/tls/x86_64:/usr/lib/tls:/usr/lib/x86_64/x86_64:/usr/lib/x86_64:/usr/lib/x86_64:/usr/lib		(system search path)
+    519093:	  trying file=/usr/lib/glibc-hwcaps/x86-64-v3/libpcre2-8
+    519093:	  trying file=/usr/lib/glibc-hwcaps/x86-64-v2/libpcre2-8
+    519093:	  trying file=/usr/lib/tls/x86_64/x86_64/libpcre2-8
+    519093:	  trying file=/usr/lib/tls/x86_64/libpcre2-8
+    519093:	  trying file=/usr/lib/tls/x86_64/libpcre2-8
+    519093:	  trying file=/usr/lib/tls/libpcre2-8
+    519093:	  trying file=/usr/lib/x86_64/x86_64/libpcre2-8
+    519093:	  trying file=/usr/lib/x86_64/libpcre2-8
+    519093:	  trying file=/usr/lib/x86_64/libpcre2-8
+    519093:	  trying file=/usr/lib/libpcre2-8
+    519093:	
+    519093:	find library=libpcre2-8.so [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libpcre2-8.so
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libpcre2-8.so
+    519093:	
+    519093:	find library=libgmp [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libgmp
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libgmp
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libgmp
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libgmp
+    519093:	 search path=/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519093:	  trying file=/usr/bin/../lib/julia/../libgmp
+    519093:	 search cache=/etc/ld.so.cache
+    519093:	 search path=/usr/lib		(system search path)
+    519093:	  trying file=/usr/lib/libgmp
+    519093:	
+    519093:	find library=libgmp.so [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libgmp.so
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libgmp.so
+    519093:	
+    519093:	find library=libmpfr [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libmpfr
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libmpfr
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libmpfr
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libmpfr
+    519093:	 search path=/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519093:	  trying file=/usr/bin/../lib/julia/../libmpfr
+    519093:	 search cache=/etc/ld.so.cache
+    519093:	 search path=/usr/lib		(system search path)
+    519093:	  trying file=/usr/lib/libmpfr
+    519093:	
+    519093:	find library=libmpfr.so [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libmpfr.so
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libmpfr.so
+    519093:	
+    519093:	find library=libgfortran.so.5 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libgfortran.so.5
+    519093:	
+    519093:	find library=libquadmath.so.0 [0]; searching
+    519093:	 search path=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/glibc-hwcaps/x86-64-v3:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/glibc-hwcaps/x86-64-v2:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls/x86_64/x86_64:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls/x86_64:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls/x86_64:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/x86_64/x86_64:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/x86_64:/workspace/destdir/x86_64-linux-gnu/lib/../lib64/x86_64:/workspace/destdir/x86_64-linux-gnu/lib/../lib64		(RPATH from file /usr/bin/../lib/julia/libgfortran.so.5)
+    519093:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/glibc-hwcaps/x86-64-v3/libquadmath.so.0
+    519093:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/glibc-hwcaps/x86-64-v2/libquadmath.so.0
+    519093:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls/x86_64/x86_64/libquadmath.so.0
+    519093:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls/x86_64/libquadmath.so.0
+    519093:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls/x86_64/libquadmath.so.0
+    519093:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/tls/libquadmath.so.0
+    519093:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/x86_64/x86_64/libquadmath.so.0
+    519093:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/x86_64/libquadmath.so.0
+    519093:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/x86_64/libquadmath.so.0
+    519093:	  trying file=/workspace/destdir/x86_64-linux-gnu/lib/../lib64/libquadmath.so.0
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libquadmath.so.0
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libquadmath.so.0
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libgfortran.so.5
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libopenblas64_.so
+    519093:	
+    519093:	find library=libblastrampoline [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libblastrampoline
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libblastrampoline
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libblastrampoline
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libblastrampoline
+    519093:	 search path=/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519093:	  trying file=/usr/bin/../lib/julia/../libblastrampoline
+    519093:	 search cache=/etc/ld.so.cache
+    519093:	 search path=/usr/lib		(system search path)
+    519093:	  trying file=/usr/lib/libblastrampoline
+    519093:	
+    519093:	find library=libblastrampoline.so [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libblastrampoline.so
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libblastrampoline.so
+    519093:	
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: isamax_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: isamax__ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: isamax___ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: cblas_dbf16tod64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: cblas_sbdot64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: cblas_sbdtobf1664_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: cblas_sbf16tos64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: cblas_sbgemm64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: cblas_sbgemv64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: cblas_sbstobf1664_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: dbf16tod_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qamax_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qamin_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qasum_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qaxpy_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qcabs1_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qcopy_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qdot_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qgbmv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qgemm_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qgemv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qger_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qmax_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qmin_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qnrm2_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qsbmv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qscal_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qspmv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qspr2_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qspr_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qswap_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qsymm_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qsymv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qsyr2_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qsyr2k_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qsyr_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qsyrk_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtbmv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtbsv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtpmv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtpsv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtrmm_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtrmv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtrsm_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qtrsv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qxamax_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qxamin_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qxasum_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: qxnrm2_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: sbdot_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: sbdtobf16_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: sbf16tos_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: sbgemm_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: sbgemv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: sbstobf16_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xaxpy_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xcopy_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xdotc_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xdotu_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xgbmv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xgemm_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xgemv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xgerc_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xgeru_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xhbmv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xhemm_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xhemv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xher2_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xher2k_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xher_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xherk_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xhpmv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xhpr2_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xhpr_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xqscal_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xscal_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xswap_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xsymm_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xsyr2k_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xsyrk_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtbmv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtbsv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtpmv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtpsv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtrmm_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtrmv_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtrsm_64_ (fatal)
+    519093:	/usr/bin/../lib/julia/libopenblas64_.so: error: symbol lookup error: undefined symbol: xtrsv_64_ (fatal)
+    519093:	find library=libcholmod [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libcholmod
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libcholmod
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libcholmod
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libcholmod
+    519093:	 search path=/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519093:	  trying file=/usr/bin/../lib/julia/../libcholmod
+    519093:	 search cache=/etc/ld.so.cache
+    519093:	 search path=/usr/lib		(system search path)
+    519093:	  trying file=/usr/lib/libcholmod
+    519093:	
+    519093:	find library=libcholmod.so [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libcholmod.so
+    519093:	
+    519093:	find library=libamd.so.2 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libamd.so.2
+    519093:	
+    519093:	find library=libcolamd.so.2 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libcolamd.so.2
+    519093:	
+    519093:	find library=libsuitesparseconfig.so.5 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libsuitesparseconfig.so.5
+    519093:	
+    519093:	find library=libccolamd.so.2 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libccolamd.so.2
+    519093:	
+    519093:	find library=libcamd.so.2 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libcamd.so.2
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libsuitesparseconfig.so.5
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libcamd.so.2
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libccolamd.so.2
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libcolamd.so.2
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libamd.so.2
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libcholmod.so
+    519093:	
+    519093:	find library=libcholmod [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libcholmod
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libcholmod
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libcholmod
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libcholmod
+    519093:	 search path=/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519093:	  trying file=/usr/bin/../lib/julia/../libcholmod
+    519093:	 search cache=/etc/ld.so.cache
+    519093:	 search path=/usr/lib		(system search path)
+    519093:	  trying file=/usr/lib/libcholmod
+    519093:	
+    519093:	find library=libsuitesparseconfig [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libsuitesparseconfig
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libsuitesparseconfig
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libsuitesparseconfig
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libsuitesparseconfig
+    519093:	 search path=/usr/bin/../lib/julia/..		(RUNPATH from file /usr/bin/../lib/julia/libjulia-internal.so.1)
+    519093:	  trying file=/usr/bin/../lib/julia/../libsuitesparseconfig
+    519093:	 search cache=/etc/ld.so.cache
+    519093:	 search path=/usr/lib		(system search path)
+    519093:	  trying file=/usr/lib/libsuitesparseconfig
+    519093:	
+    519093:	find library=libsuitesparseconfig.so [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libsuitesparseconfig.so
+    519093:	
+    519093:	find library=libnghttp2.so.14 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libnghttp2.so.14
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libnghttp2.so.14
+    519093:	
+    519093:	find library=libcurl.so [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libcurl.so
+    519093:	
+    519093:	find library=libssh2.so.1 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libssh2.so.1
+    519093:	
+    519093:	find library=libmbedtls.so.13 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libmbedtls.so.13
+    519093:	
+    519093:	find library=libmbedx509.so.1 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libmbedx509.so.1
+    519093:	
+    519093:	find library=libmbedcrypto.so.5 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libmbedcrypto.so.5
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libmbedcrypto.so.5
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libmbedx509.so.1
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libmbedtls.so.13
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libssh2.so.1
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libcurl.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/2e8fae88dcadc37883e31246fe7397f4f1039f88/lib/libcharset.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/2e8fae88dcadc37883e31246fe7397f4f1039f88/lib/libiconv.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/75b2da9ed2ec48588460be0f3a8bb489212012e9/lib/libxml2.so
+    519093:	
+    519093:	find library=libgomp.so.1 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libgomp.so.1
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/julia/libgomp.so.1
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/dc526f26fb179a3f68eb13fcbe5d2d2a5aa7eeac/lib/libgettextlib.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/16154f990153825ec24b52aac11165df2084b9dc/lib/libgpg-error.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/92111ef825c608ea220f8e679dd8d908d7ac5b83/lib/libgcrypt.so
+    519093:	
+    519093:	find library=libblkid.so.1 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libblkid.so.1
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libblkid.so.1
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libblkid.so.1
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/libblkid.so.1
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5a508a62784097dab7c7ae5805f2c89d2cc97397/lib/libmount.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/17314d4057d189dbe9a4cbb1dc839b541d70fc29/lib/libpcre.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/d00220164876dea2cb19993200662745eed5e2db/lib/libffi.so
+    519093:	
+    519093:	find library=libglib-2.0.so.0 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libglib-2.0.so.0
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libglib-2.0.so.0
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libglib-2.0.so.0
+    519093:	
+    519093:	find library=libgobject-2.0.so.0 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libgobject-2.0.so.0
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libgobject-2.0.so.0
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libgobject-2.0.so.0
+    519093:	
+    519093:	find library=libgmodule-2.0.so.0 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libgmodule-2.0.so.0
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libgmodule-2.0.so.0
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libgmodule-2.0.so.0
+    519093:	
+    519093:	find library=libresolv.so.2 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libresolv.so.2
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libresolv.so.2
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libresolv.so.2
+    519093:	
+    519093:	find library=libffi.so.8 [0]; searching
+    519093:	 search path=/usr/bin/../lib:/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libffi.so.8
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/libffi.so.8
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/libresolv.so.2
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/libglib-2.0.so.0
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/libgmodule-2.0.so.0
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/libgobject-2.0.so.0
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/b069ad81d556658ea64a543367e128e535fab269/lib/libgio-2.0.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/b069ad81d556658ea64a543367e128e535fab269/lib/libglib-2.0.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/b069ad81d556658ea64a543367e128e535fab269/lib/libgmodule-2.0.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/b069ad81d556658ea64a543367e128e535fab269/lib/libgobject-2.0.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/b069ad81d556658ea64a543367e128e535fab269/lib/libgthread-2.0.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/7661e5a9aa217ce3c468389d834a4fb43b0911e8/lib/libbz2.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/54c97eb1b0a6f74bac96297a815ddec2204a7db7/lib/libfreetype.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/4487a7356408c3a92924e56f9d3891724855282c/lib/libXau.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/51c48c945ae76d6c0102649044d9976d93b78125/lib/libXdmcp.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/ddfc455343aff48d27c1b39d7fcb07e0d9242b50/lib/libpng16.so
+    519093:	
+    519093:	find library=libxslt.so.1 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libxslt.so.1
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libxslt.so.1
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libxslt.so.1
+    519093:	
+    519093:	
+    519093:	calling init: /usr/bin/../lib/libxslt.so.1
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/f3ec73d7bf2f4419ba0943e94f7738cf56050797/lib/libexslt.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/f3ec73d7bf2f4419ba0943e94f7738cf56050797/lib/libxslt.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-composite.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-damage.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-dpms.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-dri2.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-dri3.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-glx.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-present.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-randr.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-record.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-render.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-res.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-screensaver.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-shape.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-shm.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-sync.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xf86dri.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xfixes.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xinerama.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xinput.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xkb.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xtest.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xv.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xvmc.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/431a0e3706ffe717ab5d35c47bc38626c6169504/lib/libX11.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/431a0e3706ffe717ab5d35c47bc38626c6169504/lib/libX11-xcb.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/fc6071b99b67da0ae4e49ebab70c369ce9a76c9e/lib/libXext.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/62c010876222f83fe8878bf2af0e362083d20ee3/lib/libgraphite2.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/87bafe0241306176b06ea2cc2f0b9674e662a24e/lib/libexpat.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/921a059ebce52878d7a7944c9c345327958d1f5b/lib/liblzo2.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/f3337de0321b3370b90643d18bf63bd4ee79c991/lib/libpixman-1.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/527e66fb9b12dfd1f58157fe0b3fd52b84062432/lib/libXrender.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/2b77b304b0975d15bd5aeb4d1d5097ac6256ea3c/lib/libuuid.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/387d89822da323c098aba6f8ab316874d4e90f2e/lib/libfontconfig.so
+    519093:	
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys__getenv_0 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_#623_1 (fatal)
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/8b0284dc2781b9481ff92e281f1db532d8421040/lib/libcairo.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/8b0284dc2781b9481ff92e281f1db532d8421040/lib/libcairo-gobject.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/8b0284dc2781b9481ff92e281f1db532d8421040/lib/libcairo-script-interpreter.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/ee20a84d0166c074dfa736b642902dd87b4da48d/lib/libharfbuzz.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/ee20a84d0166c074dfa736b642902dd87b4da48d/lib/libharfbuzz-gobject.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/ee20a84d0166c074dfa736b642902dd87b4da48d/lib/libharfbuzz-subset.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/d11639e2a53726f2593e25ba98ed7b416f62bbc5/lib/libfribidi.so
+    519093:	
+    519093:	
+    519093:	calling init: /home/vchuravy/.julia/artifacts/6fe4ba8f1e130eb940af999b5c82fc4621d6719c/lib/libpango-1.0.so
+    519093:	
+    519093:	find library=libpangoft2-1.0.so.0 [0]; searching
+    519093:	 search path=/usr/bin/../lib/julia		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/julia/libpangoft2-1.0.so.0
+    519093:	 search path=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib		(LD_LIBRARY_PATH)
+    519093:	  trying file=/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libpangoft2-1.0.so.0
+    519093:	 search path=/usr/bin/../lib		(RPATH from file julia)
+    519093:	  trying file=/usr/bin/../lib/libpangoft2-1.0.so.0
+    519093:	
+    519093:	/usr/bin/../lib/libpangoft2-1.0.so.0: error: symbol lookup error: undefined symbol: pango_matrix_get_slant_ratio (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_steprange_last_6 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_repl_color_2 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_write_5 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_repl_color_2 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys__array_for_3 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_iterate_4 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_show_exception_stack_12 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_write_5 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#IOBuffer#399_8 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_take!_9 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_rethrow_11 (fatal)
+ERROR:     519093:	julia: error: symbol lookup error: undefined symbol: jsys1_lock_12 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_unlock_13 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_rethrow_11 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_print_30 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_#showerror#815_27 (fatal)
+InitError:     519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_write_5 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_print_fullname_79 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_lock_12 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_show_76 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_unlock_13 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_rethrow_11 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_lock_12 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_print_73 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_unlock_13 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_rethrow_11 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_lock_12 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_unlock_13 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_rethrow_11 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_arg_decl_parts_47 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_print_85 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys__copyto_impl!_48 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_kwarg_decl_49 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys__collect_50 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_join_83 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_show_method_params_81 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_print_70 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_updated_methodloc_51 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_string_26 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_throw_boundserror_52 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_show_63 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_print_to_string_46 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#string#403_34 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_print_85 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_demangle_function_name_35 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_#print_within_stacktrace#483_89 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_#print_within_stacktrace#483_87 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_36 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_rewrap_unionall_37 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys__copyto_impl!_38 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_endswith_39 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_lastindex_40 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_throw_boundserror_41 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_isvalid_42 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys__nextind_str_43 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_throw_inexacterror_44 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_string_index_err_45 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_show_mi_60 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_==_18 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_normpath_19 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#replace#418_20 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_stacktrace_expand_basepaths_21 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_find_source_file_22 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_stacktrace_contract_userdir_23 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_contractuser_24 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#string#403_25 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_string_26 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_lpad_27 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_print_85 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_show_spec_linfo_54 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_print_to_string_28 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_write_5 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_repeat_29 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_string_30 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_splitpath_31 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys__copyto_impl!_32 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_throw_boundserror_33 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_ht_keyindex_54 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_setindex!_55 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_print_stackframe_50 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_throw_inexacterror_44 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_steprange_last_6 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_print_85 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_ndigits0z_16 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_Dict_53 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_print_stackframe_95 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_write_5 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_stacktrace_linebreaks_15 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_setindex!_17 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_print_stackframe_50 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_ndigits0z_16 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_print_85 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_print_stackframe_47 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_write_5 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#process_backtrace#835_14 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_show_reduced_backtrace_91 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_stacktrace_linebreaks_15 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_#show_full_backtrace#834_43 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_==_18 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_write_5 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_showerror_98 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_show_backtrace_39 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_rethrow_11 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_#showerror#813_35 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+could not load library "/home/vchuravy/.julia/artifacts/6fe4ba8f1e130eb940af999b5c82fc4621d6719c/lib/libpangocairo-1.0.so"
+/usr/bin/../lib/libpangoft2-1.0.so.0: undefined symbol: pango_matrix_get_slant_ratio
+Stacktrace:
+ [1]     519093:	julia: error: symbol lookup error: undefined symbol: jsys1_lock_12 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_unlock_13 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_rethrow_11 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_lock_12 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_write_5 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_unlock_13 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_rethrow_11 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_print_60 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_is_exported_from_stdlib_59 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_demangle_function_name_56 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#print_within_stacktrace#483_57 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_print_116 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_string_26 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_demangle_function_name_56 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_print_118 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_throw_inexacterror_44 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_show_signature_function_113 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#print_within_stacktrace#483_57 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_#print_within_stacktrace#483_111 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_show_method_params_58 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_#show_tuple_as_call#484_105 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#IOBuffer#399_61 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_throw_inexacterror_44 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#IOBuffer#399_8 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_take!_9 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_rethrow_11 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_getindex_62 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_string_26 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_getindex_63 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys__split_64 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_print_65 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_write_66 (fatal)
+dlopen(    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#IOBuffer#399_8 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_take!_9 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_rethrow_11 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_getindex_62 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_string_26 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_getindex_63 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys__split_64 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_print_65 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_write_66 (fatal)
+s::    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_findnext_67 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#with_output_color#867_68 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_prevind_69 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_lastindex_40 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_isvalid_42 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys__nextind_str_43 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_throw_inexacterror_44 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_string_index_err_45 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_#print_type_stacktrace#485_129 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#IOBuffer#399_61 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_throw_inexacterror_44 (fatal)
+String, flags::UInt32; throw_error::Bool)
+   @     519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#IOBuffer#399_8 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_take!_9 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_rethrow_11 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_getindex_62 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_string_26 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_getindex_63 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys__split_64 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_print_65 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_write_66 (fatal)
+Base.Libc.Libdl ./    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#IOBuffer#399_8 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_take!_9 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_rethrow_11 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_getindex_62 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_string_26 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_getindex_63 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys__split_64 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jsys1_print_65 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_write_66 (fatal)
+libdl.jl:117
+ [2]     519093:	julia: error: symbol lookup error: undefined symbol: jsys1_demangle_function_name_56 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_print_70 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_throw_inexacterror_44 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_show_signature_function_71 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#print_within_stacktrace#483_57 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_#print_within_stacktrace#483_72 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_unsafe_write_10 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_show_method_params_58 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: jlsys_getindex_7 (fatal)
+    519093:	julia: error: symbol lookup error: undefined symbol: julia_#show_tuple_as_call#484_139 (fatal)
+dlopen(s::String, flags::UInt32)
+   @ Base.Libc.Libdl ./libdl.jl:117
+ [3] macro expansion
+   @ ~/.julia/packages/JLLWrappers/QpMQW/src/products/library_generators.jl:54 [inlined]
+ [4] __init__()
+   @ Pango_jll ~/.julia/packages/Pango_jll/xt19s/src/wrappers/x86_64-linux-gnu.jl:22
+ [5] _include_from_serialized(path::String, depmods::Vector{Any})
+   @ Base ./loading.jl:768
+ [6] _require_search_from_serialized(pkg::Base.PkgId, sourcepath::String)
+   @ Base ./loading.jl:854
+ [7] _require(pkg::Base.PkgId)
+   @ Base ./loading.jl:1097
+ [8] require(uuidkey::Base.PkgId)
+   @ Base ./loading.jl:1013
+ [9] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:997
+during initialization of module Pango_jll
+    519093:	
+    519093:	calling fini: julia [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/lib/julia/sys.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libjulia-internal.so.1 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libatomic.so.1 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libLLVM-12jl.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/libjulia.so.1 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libpcre2-8.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libmpfr.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libgmp.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libopenblas64_.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libgfortran.so.5 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libquadmath.so.0 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libcholmod.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libblastrampoline.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libstdc++.so.6 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libgcc_s.so.1 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libamd.so.2 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libcolamd.so.2 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libccolamd.so.2 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libcamd.so.2 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libsuitesparseconfig.so.5 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libcurl.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libnghttp2.so.14 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libssh2.so.1 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libmbedtls.so.13 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libmbedx509.so.1 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libmbedcrypto.so.5 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/2e8fae88dcadc37883e31246fe7397f4f1039f88/lib/libcharset.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libgomp.so.1 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/dc526f26fb179a3f68eb13fcbe5d2d2a5aa7eeac/lib/libgettextlib.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/b069ad81d556658ea64a543367e128e535fab269/lib/libglib-2.0.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/b069ad81d556658ea64a543367e128e535fab269/lib/libgmodule-2.0.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/b069ad81d556658ea64a543367e128e535fab269/lib/libgobject-2.0.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/d00220164876dea2cb19993200662745eed5e2db/lib/libffi.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/b069ad81d556658ea64a543367e128e535fab269/lib/libgthread-2.0.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/f3ec73d7bf2f4419ba0943e94f7738cf56050797/lib/libexslt.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/92111ef825c608ea220f8e679dd8d908d7ac5b83/lib/libgcrypt.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/16154f990153825ec24b52aac11165df2084b9dc/lib/libgpg-error.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/libxslt.so.1 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/f3ec73d7bf2f4419ba0943e94f7738cf56050797/lib/libxslt.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/75b2da9ed2ec48588460be0f3a8bb489212012e9/lib/libxml2.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/2e8fae88dcadc37883e31246fe7397f4f1039f88/lib/libiconv.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-composite.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-damage.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-dpms.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-dri2.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-dri3.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-glx.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-present.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-randr.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-record.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-res.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-screensaver.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-shape.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-sync.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xf86dri.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xfixes.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xinerama.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xinput.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xkb.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xtest.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xv.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-xvmc.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/2b77b304b0975d15bd5aeb4d1d5097ac6256ea3c/lib/libuuid.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/8b0284dc2781b9481ff92e281f1db532d8421040/lib/libcairo-gobject.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/8b0284dc2781b9481ff92e281f1db532d8421040/lib/libcairo-script-interpreter.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/8b0284dc2781b9481ff92e281f1db532d8421040/lib/libcairo.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/387d89822da323c098aba6f8ab316874d4e90f2e/lib/libfontconfig.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/527e66fb9b12dfd1f58157fe0b3fd52b84062432/lib/libXrender.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/f3337de0321b3370b90643d18bf63bd4ee79c991/lib/libpixman-1.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/921a059ebce52878d7a7944c9c345327958d1f5b/lib/liblzo2.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/87bafe0241306176b06ea2cc2f0b9674e662a24e/lib/libexpat.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/fc6071b99b67da0ae4e49ebab70c369ce9a76c9e/lib/libXext.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/431a0e3706ffe717ab5d35c47bc38626c6169504/lib/libX11-xcb.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/431a0e3706ffe717ab5d35c47bc38626c6169504/lib/libX11.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-shm.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb-render.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5ba11d7fb2ceb4ca812844eb4af886a212b47f65/lib/libxcb.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/ddfc455343aff48d27c1b39d7fcb07e0d9242b50/lib/libpng16.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/51c48c945ae76d6c0102649044d9976d93b78125/lib/libXdmcp.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/4487a7356408c3a92924e56f9d3891724855282c/lib/libXau.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/ee20a84d0166c074dfa736b642902dd87b4da48d/lib/libharfbuzz-gobject.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/ee20a84d0166c074dfa736b642902dd87b4da48d/lib/libharfbuzz-subset.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/6fe4ba8f1e130eb940af999b5c82fc4621d6719c/lib/libpango-1.0.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/d11639e2a53726f2593e25ba98ed7b416f62bbc5/lib/libfribidi.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/ee20a84d0166c074dfa736b642902dd87b4da48d/lib/libharfbuzz.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/62c010876222f83fe8878bf2af0e362083d20ee3/lib/libgraphite2.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/54c97eb1b0a6f74bac96297a815ddec2204a7db7/lib/libfreetype.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/7661e5a9aa217ce3c468389d834a4fb43b0911e8/lib/libbz2.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/b069ad81d556658ea64a543367e128e535fab269/lib/libgio-2.0.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/libresolv.so.2 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/libgmodule-2.0.so.0 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/libgobject-2.0.so.0 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/libffi.so.8 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/libglib-2.0.so.0 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/17314d4057d189dbe9a4cbb1dc839b541d70fc29/lib/libpcre.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /home/vchuravy/.julia/artifacts/5a508a62784097dab7c7ae5805f2c89d2cc97397/lib/libmount.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/libblkid.so.1 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libz.so.1 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/libm.so.6 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/julia/libopenlibm.so [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/librt.so.1 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/libpthread.so.0 [0]
+    519093:	
+    519093:	
+    519093:	calling fini: /usr/bin/../lib/libdl.so.2 [0]
+    519093:	
+    519092:	
+    519092:	calling fini: /home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/bin/hydra_pmi_proxy [0]
+    519092:	
+    519092:	
+    519092:	calling fini: /usr/bin/../lib/libm.so.6 [0]
+    519092:	
+    519092:	
+    519092:	calling fini: /usr/bin/../lib/libpthread.so.0 [0]
+    519092:	
+    519091:	
+    519091:	calling fini: /home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/bin/mpiexec [0]
+    519091:	
+    519091:	
+    519091:	calling fini: /usr/bin/../lib/libnss_mymachines.so.2 [0]
+    519091:	
+    519091:	
+    519091:	calling fini: /usr/bin/../lib/libcap.so.2 [0]
+    519091:	
+    519091:	
+    519091:	calling fini: /usr/bin/../lib/libnss_resolve.so.2 [0]
+    519091:	
+    519091:	
+    519091:	calling fini: /usr/bin/../lib/libm.so.6 [0]
+    519091:	
+    519091:	
+    519091:	calling fini: /usr/bin/../lib/libnss_files.so.2 [0]
+    519091:	
+    519091:	
+    519091:	calling fini: /usr/bin/../lib/libnss_myhostname.so.2 [0]
+    519091:	
+    519091:	
+    519091:	calling fini: /usr/bin/../lib/julia/libgcc_s.so.1 [0]
+    519091:	
+    519091:	
+    519091:	calling fini: /usr/bin/../lib/librt.so.1 [0]
+    519091:	
+    519091:	
+    519091:	calling fini: /usr/bin/../lib/libpthread.so.0 [0]
+    519091:	
+    519082:	julia: error: symbol lookup error: undefined symbol: jlsys__copyto_impl!_0 (fatal)
+    519082:	julia: error: symbol lookup error: undefined symbol: jlsys_throw_boundserror_1 (fatal)
+[91m[1mERROR: [22m[39mfailed process: Process(`[4m/home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/bin/mpiexec[24m [4m-np[24m [4m1[24m [4mjulia[24m [4m-e[24m [4m'import Pango_jll;import Libdl; @show Libdl.dllist()'[24m`, ProcessExited(1)) [1]
+
+Stacktrace:
+  [1] [0m[1mpipeline_error[22m
+[90m    @ [39m[90m./[39m[90m[4mprocess.jl:531[24m[39m[90m [inlined][39m
+  [2] [0m[1mrun[22m[0m[1m([22m::[0mCmd; [90mwait[39m::[0mBool[0m[1m)[22m
+[90m    @ [39m[90mBase[39m [90m./[39m[90m[4mprocess.jl:446[24m[39m
+  [3] [0m[1mrun[22m[0m[1m([22m::[0mCmd[0m[1m)[22m
+[90m    @ [39m[90mBase[39m [90m[4mprocess.jl:444[24m[39m
+  [4] [0m[1m(::var"#1#2")[22m[0m[1m([22m[90mexe[39m::[0mCmd[0m[1m)[22m
+[90m    @ [39m[35mMain[39m [90m[4mnone:4[24m[39m
+  [5] [0m[1m(::MPI.var"#10#11"{var"#1#2"})[22m[0m[1m([22m[90mcmd[39m::[0mString[0m[1m)[22m
+[90m    @ [39m[36mMPI[39m [90m~/.julia/packages/MPI/08SPr/src/[39m[90m[4menvironment.jl:25[24m[39m
+  [6] [0m[1m(::JLLWrappers.var"#2#3"{MPI.var"#10#11"{var"#1#2"}, String})[22m[0m[1m([22m[0m[1m)[22m
+[90m    @ [39m[32mJLLWrappers[39m [90m~/.julia/packages/JLLWrappers/QpMQW/src/[39m[90m[4mruntime.jl:49[24m[39m
+  [7] [0m[1mwithenv[22m[0m[1m([22m::[0mJLLWrappers.var"#2#3"[90m{MPI.var"#10#11"{var"#1#2"}, String}[39m, ::[0mPair[90m{String, String}[39m, ::[0mVararg[90m{Pair{String, String}}[39m[0m[1m)[22m
+[90m    @ [39m[90mBase[39m [90m[4menv.jl:172[24m[39m
+  [8] [0m[1mwithenv_executable_wrapper[22m[0m[1m([22m[90mf[39m::[0mFunction, [90mexecutable_path[39m::[0mString, [90mPATH[39m::[0mString, [90mLIBPATH[39m::[0mString, [90madjust_PATH[39m::[0mBool, [90madjust_LIBPATH[39m::[0mBool[0m[1m)[22m
+[90m    @ [39m[32mJLLWrappers[39m [90m~/.julia/packages/JLLWrappers/QpMQW/src/[39m[90m[4mruntime.jl:48[24m[39m
+  [9] [0m[1minvokelatest[22m[0m[1m([22m::[0mAny, ::[0mAny, ::[0mVararg[90m{Any}[39m; [90mkwargs[39m::[0mBase.Pairs[90m{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}}[39m[0m[1m)[22m
+[90m    @ [39m[90mBase[39m [90m./[39m[90m[4messentials.jl:716[24m[39m
+ [10] [0m[1minvokelatest[22m[0m[1m([22m::[0mAny, ::[0mAny, ::[0mVararg[90m{Any}[39m[0m[1m)[22m
+[90m    @ [39m[90mBase[39m [90m./[39m[90m[4messentials.jl:714[24m[39m
+ [11] [0m[1mmpiexec[22m[0m[1m([22m[90mf[39m::[0mFunction; [90madjust_PATH[39m::[0mBool, [90madjust_LIBPATH[39m::[0mBool[0m[1m)[22m
+[90m    @ [39m[33mMPICH_jll[39m [90m~/.julia/packages/JLLWrappers/QpMQW/src/products/[39m[90m[4mexecutable_generators.jl:21[24m[39m
+ [12] [0m[1mmpiexec[22m[0m[1m([22m[90mf[39m::[0mFunction[0m[1m)[22m
+[90m    @ [39m[33mMPICH_jll[39m [90m~/.julia/packages/JLLWrappers/QpMQW/src/products/[39m[90m[4mexecutable_generators.jl:21[24m[39m
+ [13] [0m[1mmpiexec[22m[0m[1m([22m[90mfn[39m::[0mvar"#1#2"[0m[1m)[22m
+[90m    @ [39m[36mMPI[39m [90m~/.julia/packages/MPI/08SPr/src/[39m[90m[4menvironment.jl:25[24m[39m
+ [14] top-level scope
+[90m    @ [39m[90m[4mnone:4[24m[39m
+    519082:	
+    519082:	calling fini: julia [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/lib/julia/sys.so [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libjulia-internal.so.1 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libatomic.so.1 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libLLVM-12jl.so [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/libjulia.so.1 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libpcre2-8.so [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libmpfr.so [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libgmp.so [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libopenblas64_.so [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libcholmod.so [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libblastrampoline.so [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libamd.so.2 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libcolamd.so.2 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libccolamd.so.2 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libcamd.so.2 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libsuitesparseconfig.so.5 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libcurl.so [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libnghttp2.so.14 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libz.so.1 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libssh2.so.1 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libmbedtls.so.13 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libmbedx509.so.1 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libmbedcrypto.so.5 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libgomp.so.1 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/libdl.so.2 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libload_time_mpi_constants.so [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libmpicxx.so [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libstdc++.so.6 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libmpifort.so [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /home/vchuravy/.julia/artifacts/de9d5e6f4be3fde623e60f49c8e756ceda89487f/lib/libmpi.so.12 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libgfortran.so.5 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libquadmath.so.0 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/../libm.so.6 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libopenlibm.so [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/../librt.so.1 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/julia/libgcc_s.so.1 [0]
+    519082:	
+    519082:	
+    519082:	calling fini: /usr/bin/../lib/libpthread.so.0 [0]
+    519082:	
+    519081:	
+    519081:	calling fini: /bin/sh [0]
+    519081:	
+    519081:	
+    519081:	calling fini: /usr/lib/libreadline.so.8 [0]
+    519081:	
+    519081:	
+    519081:	calling fini: /usr/lib/libdl.so.2 [0]
+    519081:	
+    519081:	
+    519081:	calling fini: /usr/lib/libncursesw.so.6 [0]
+    519081:	

@@ -1,0 +1,16 @@
+name = "Diffusion"
+uuid = "25b682f0-d12c-46be-9767-83a7e113f32f"
+authors = ["Samuel Omlin <samuel.omlin@cscs.ch>"]
+version = "0.1.0"
+
+[deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+Dagger = "d58978e5-989f-55fb-8d15-ea34adc7bf54"
+ImplicitGlobalGrid = "4d7a3746-15be-11ea-1130-334b0c4f5fa0"
+MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
+MPIClusterManagers = "e7922434-ae4b-11e9-05c5-9780451d2c66"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+Pango_jll = "36c8627f-9965-5494-a995-c6b170f724f3"
+
+[compat]
+MPI = "0.19"
