@@ -4,13 +4,36 @@ using Dagger
 using CairoMakie
 
 using Diffusion
-get_result() = take!(Diffusion.results_chan)
-
-video = nothing
 
 nx=64          # Number of grid points in x dimension
 ny=64          # Number of grid points in y dimension
 timesteps=30   # Number of time steps
+
+# Notes:
+# Producers can run ahead of consumer, by 2000 time steps.
+# Makie has high initial latency
+
+function process_video(dims, nx, ny, timesteps)
+    nx_v = (nx-2)*dims[1]
+    ny_v = (ny-2)*dims[2]
+    T    = zeros(nx_v, ny_v)
+    node = Observable(T)
+    fig  = heatmap(node, colorrange = (0.0, 2.0))
+
+    record(fig, "output.mkv", 1:timesteps) do t
+        if t % 2 == 0
+            @info "Processing frame" t
+            # Process frames from workers
+            results = fetch.([Dagger.@spawn single=w Diffusion.get_result() for w in workers()])
+            for (coords, result) in results
+                cart_x = (1:(nx-2)) .+ (coords[1] * (nx-2))
+                cart_y = (1:(ny-2)) .+ (coords[2] * (ny-2))
+                T[cart_x,cart_y] .= result
+            end
+            node[] = T
+        end
+    end
+end 
 
 manager = MPIClusterManagers.start_main_loop(MPI_TRANSPORT_ALL) # does not return on worker
 try
@@ -35,37 +58,17 @@ try
             end
             print("Size: $gridsize\n")
 
-            span = Int(sqrt(gridsize))
-            dims = (span, span)
-            nx_v = (nx-2)*dims[1]
-            ny_v = (ny-2)*dims[2]
-            T    = zeros(nx_v, ny_v)
-            node = Observable(T)
-            fig = heatmap(node)#, colorrange = (0.0, 2.0))
-            video = VideoStream(fig, framerate=3)
-
-            # Process frames from workers
-            for t in 1:((timesteps ÷ 2) - 1)
-                results = fetch.([Dagger.@spawn single=w get_result() for w in workers()])
-                @show t
-                for (coords, result) in results
-                    cart_x = (1:(nx-2)) .+ (coords[1] * (nx-2))
-                    cart_y = (1:(ny-2)) .+ (coords[2] * (ny-2))
-                    T[cart_x,cart_y] .= result
+            dims = [0,0]
+            MPI.Dims_create!(gridsize, dims)
+            try
+                process_video(dims, nx, ny, timesteps)
+            finally
+                @info "Terminating workers"
+                for w in workers()
+                    Dagger.@spawn single=w Diffusion.terminate()
                 end
-                node[] = T
-                recordframe!(video)
+                @info "Terminated workers"
             end
-
-            @info "Terminating workers"
-            for w in workers()
-                Dagger.@spawn single=w notify(Diffusion.termination_event)
-            end
-            @info "Terminated workers"
-
-            println("Started writing!")
-            CairoMakie.save("diffusion.mkv", video)
-            println("Finished writing!")
         else
             nprocs = MPI.Comm_size(gridcomm)
             dims = [0,0]

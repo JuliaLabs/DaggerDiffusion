@@ -11,6 +11,7 @@ MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
 MPIClusterManagers = "e7922434-ae4b-11e9-05c5-9780451d2c66"
 Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
 Pango_jll = "36c8627f-9965-5494-a995-c6b170f724f3"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
 [compat]
 MPI = "0.19"

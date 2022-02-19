@@ -13,6 +13,9 @@ using ImplicitGlobalGrid
 const results_chan = Channel{Any}(1000)
 const termination_event = Base.Event()
 
+get_result() = take!(results_chan)
+terminate() = notify(termination_event)
+
 function diffusion(T, timesteps, comm)
     nx, ny = size(T)
     coords = MPI.Cart_coords(comm)
@@ -29,8 +32,9 @@ function diffusion(T, timesteps, comm)
         end
     end
 
+    @info "Finished diffusion" me
     wait(termination_event)
-    @info "Worker $me terminated"
+    @info "Worker terminated" me
 end
 
 end # module
