@@ -3,4 +3,4 @@ import Pkg
 
 Pkg.activate(".")
 
-create_sysimage(["CairoMakie", "Dagger"]; sysimage_path="sysimage.so")
+create_sysimage(["CairoMakie"]; sysimage_path="sysimage.so", precompile_execution_file="precompile.jl")
