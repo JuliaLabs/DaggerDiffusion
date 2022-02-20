@@ -24,7 +24,7 @@ function diffusion(T, timesteps, comm)
     put!(results_chan, (coords, collect(interior(T))))
 
     for t in 1:timesteps
-        interior(T) .-= interior(T) .- ((north(T) .+ south(T) .+ east(T) .+ west(T)) ./ 4.0)
+        interior(T) .-= ((north(T) .+ south(T) .+ east(T) .+ west(T)) ./ 4.0)
         update_halo!(T)
 
         if t % 2 == 0
